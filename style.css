@@ -60,7 +60,9 @@
 }
 #home::before{
     content:"";
-    background: url("ecom2.jpg") no-repeat center center /cover;
+    background: url("ecom2.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
     position:absolute;
     top:0px;
     left:0px;
@@ -142,7 +144,7 @@
 #products-section::before{
     content:"";
     position: absolute;
-    background: url('ecomproductbackground.jpg');
+    background: url("ecomproductbackground.jpg");
     background-repeat: no-repeat;
     background-size: cover;
     width:100%;
@@ -233,3 +235,4 @@ footer{
     }
 
 }
+
