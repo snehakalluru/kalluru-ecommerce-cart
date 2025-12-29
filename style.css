@@ -60,7 +60,7 @@
 }
 #home::before{
     content:"";
-    background: url("../images/ecom2.jpg") no-repeat center center /cover;
+    background: url("ecom2.jpg") no-repeat center center /cover;
     position:absolute;
     top:0px;
     left:0px;
@@ -142,7 +142,7 @@
 #products-section::before{
     content:"";
     position: absolute;
-    background: url('../images/ecomproductbackground.jpg');
+    background: url('ecomproductbackground.jpg');
     background-repeat: no-repeat;
     background-size: cover;
     width:100%;
@@ -195,7 +195,7 @@
 #contact::before{
     content:"";
     position: absolute;
-    background: url('../images/ecomcontact.jpg');
+    background: url('ecomcontact.jpg');
     background-repeat: no-repeat;
     background-size: cover;
     width:100%;
@@ -231,4 +231,5 @@ footer{
     260%{
         transform: rotate(180deg);
     }
+
 }
