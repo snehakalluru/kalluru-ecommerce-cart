@@ -1,0 +1,42 @@
+#navbar{
+    flex-direction: column;
+}
+#navbar ul li a{
+    font-size: 0.7rem;
+    padding:3px 7px;
+}
+#home{
+    height:200px;
+    padding: 3px, 50px;
+}
+#home::before{
+    height: 400px;
+}
+#home p{
+    width:330%;
+
+}
+#home .hprimary{
+    font-size: medium;
+    margin-top: 130%;
+    width:195px;
+
+}
+#home .btn{
+    width:214%;
+}
+
+#products .items img{
+    margin-top:10px;
+    width:90%;
+    display:block;
+}
+
+#contact{
+    margin-top:-87px;
+}
+#product-section{
+    margin-bottom: 10px;
+    
+}
+  

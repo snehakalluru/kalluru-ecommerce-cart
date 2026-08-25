@@ -1,0 +1,38 @@
+#navbar{
+    flex-direction: column;
+}
+
+#navbar ul li a{
+    font-size: 0.9rem;
+    padding:3px 7px;
+}
+#home{
+    height:200px;
+    padding: 3px, 50px;
+}
+#home::before{
+    height: 400px;
+}
+#home p{
+    font-size: 15px;
+    line-height: 100%;
+}
+#services{
+    flex-direction: column;
+    margin-top: 0px;
+}
+#services .box{
+    margin: 7px;
+    
+}
+#products-section{
+    height:362px;
+    margin-top: -50px;
+}
+#products .items img{
+    align-items: center;
+    margin-top: 70px;
+}
+#contact{
+    margin-top:176px;
+}
